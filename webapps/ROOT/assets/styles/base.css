@@ -1,12 +1,37 @@
-ul.index-instances { }
+ul.index-instances {}
 
 .index-instance-file {
     font-weight: bolder;
 }
 
-.index-instance-text-parts { }
+.tei,
+div.textpart,
+div#edition {
+    font-family: "Gentium Plus";
+    font-size: 1.05em;
+}
 
-.index-instance-line { }
+div#edition>p {
+    padding-left: 3em;
+}
+
+div.textpart {
+    margin-bottom: 2em;
+}
+
+span.textpartnumber {
+    margin-top: 0.3em;
+    font-weight: bold;
+    color: orangered;
+}
+
+p.note {
+    margin-top: 1em;
+}
+
+.index-instance-text-parts {}
+
+.index-instance-line {}
 
 footer {
     background: none repeat scroll 0 0 #fafafa;
