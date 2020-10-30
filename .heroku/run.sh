@@ -1,1 +1,1 @@
-echo 'echo "hello world"'
+./build.sh
